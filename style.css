@@ -193,6 +193,7 @@ body {
     .container {
         display: block;
         background-image: none;
+        text-align: center;
     }
 
     .imagem_combo {
@@ -200,7 +201,7 @@ body {
     }
 
     .container_caixa {
-        margin: 2em 2em;
+        margin: 2em 1em;
     }
 
     .secundario {
@@ -214,30 +215,29 @@ body {
     }
 
     .container_plataformas {
-        margin: 2em 2em;
+        margin: 2em 1em;
     }
 
     .imagem_telas {
-        width: 70%;
+        width: 80%;
 
     }
 
     .descricao_telas {
-        margin: 2em 2em;
         margin-top: 30%;
     }
 
     .imagem_notebook {
-        width: 70%;
+        width: 80%;
 
     }
 
     .descricao_plataformas {
-        margin: 2em 2em;
+        margin: 2em 1em;
     }
 
     .Titulo_dispositivos {
-        margin: 2em 2em;
+        margin: 2em 1em;
     }
 
     .dispositivos_lista {
@@ -249,7 +249,7 @@ body {
     }
 
     .copyrigth {
-        margin: 2em 2em;
+        margin: 2em 1em;
         display: block;
     }
 }
