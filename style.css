@@ -7,7 +7,6 @@
     --font-principal: 'Inter', sans-serif;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -25,8 +24,10 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 100%;
     align-items: center;
     text-align: center;
+
 
 }
 
@@ -188,6 +189,67 @@ body {
     color: var(--cor-secundaria);
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
 
+    .imagem_combo {
+        width: 60%;
+    }
+
+    .container_caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .imagem_plataformas {
+        width: 70%;
+
+    }
+
+    .container_plataformas {
+        margin: 2em 2em;
+    }
+
+    .imagem_telas {
+        width: 70%;
+
+    }
+
+    .descricao_telas {
+        margin: 2em 2em;
+        margin-top: 30%;
+    }
+
+    .imagem_notebook {
+        width: 70%;
+
+    }
+
+    .descricao_plataformas {
+        margin: 2em 2em;
+    }
+
+    .Titulo_dispositivos {
+        margin: 2em 2em;
+    }
+
+    .dispositivos_lista {
+        display: block;
+    }
+
+    .rodape ul {
+        display: block;
+    }
+
+    .copyrigth {
+        margin: 2em 2em;
+        display: block;
+    }
 }
