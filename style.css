@@ -148,19 +148,46 @@ body {
     color: var(--cor-baseprincipal);
 }
 
-.logo {
-
+.rodape_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    
 }
 
-.container_ancoras {
+.lista_link a {
+    text-decoration: none;
     color: var(--cor-baseprincipal);
     font-size: 1rem;
-    text-decoration: none;
+    margin-left: 1em;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
 }
 
 .copyrigth {
     font-size: 0.90rem;
     color: var(--cor-principal);
-    text-align: center;
-    margin: 0 0 100px 0;
+    margin: 1em 0;
+}
+
+.lista_link a:hover {
+    color: var(--cor-secundaria);
+}
+
+.container_botao2:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-baseprincipal);
+}
+
+.container_botao:hover {
+    background-color: var(--cor-baseprincipal);
+    color: var(--cor-secundaria);
+}
+
+@media (max-width: 600px) {
+
 }
