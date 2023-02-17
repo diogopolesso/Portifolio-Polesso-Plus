@@ -98,7 +98,7 @@ body {
 }
 
 .imagem_plataformas {
-    width: 80%;
+    width: 70%;
 }
 
 .paragrafo_telas {
@@ -120,6 +120,12 @@ body {
 .imagem_telas {
     display: inline-block;
     padding: 2em;
+    width: 70%;
+}
+
+.imagem_notebook {
+    width: 70%;
+
 }
 
 .dispositivos {
