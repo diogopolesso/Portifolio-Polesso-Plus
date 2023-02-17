@@ -197,21 +197,21 @@ body {
 
 @media screen and (max-width: 600px) {
     .container {
-        display: block;
+        display:block;
         background-image: none;
         text-align: center;
     }
 
     .imagem_combo {
-        width: 60%;
+        width: 70vw;
     }
 
     .container_caixa {
-        margin: 2em 1em;
+        margin: 2em 2em;
     }
 
     .secundario {
-        margin-top: auto;
+        margin: 0;
         text-align: center;
     }
 
@@ -221,16 +221,16 @@ body {
     }
 
     .container_plataformas {
-        margin: 2em 1em;
+        margin: 2em 2em;
     }
 
     .imagem_telas {
-        width: 80%;
+        width: 70%;
 
     }
 
     .descricao_telas {
-        margin-top: 30%;
+        margin: 0 2em;
     }
 
     .imagem_notebook {
